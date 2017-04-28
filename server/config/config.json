@@ -1,0 +1,14 @@
+{
+  "test": {
+    "PORT": 8080,
+    "MONGODB_URI": "mongodb://localhost:27017/ecommerceAdminTest",
+    "JWT_SECRET" : "asdfasdfasdfasdfweqrafsdgfdsweqr",
+    "CORS_ORIGIN" : "http://localhost:3000"
+  },
+  "development": {
+    "PORT": 8080,
+    "MONGODB_URI": "mongodb://localhost:27017/ecommerceAdmin",
+    "JWT_SECRET" : "jklasdfiouwerjklasfdiou",
+    "CORS_ORIGIN" : "http://localhost:3000"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "API for an ecommerce website admin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "createsuperuser": "node server/createsuperuser.js",
+    "test": "export NODE_ENV=test && mocha --recursive"
+  },
+  "engines": {
+    "node": "6.9.2"
+  },
+  "author": "Stephanie Lynn Pancho (stephlynpancho@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bcryptjs": "^2.4.0",
+    "body-parser": "^1.16.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "jsonwebtoken": "^7.2.1",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.8.1",
+    "mongoose-unique-validator": "^1.0.3",
+    "validator": "^6.2.1",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
